@@ -1,0 +1,32 @@
+[color] # colorize output
+    ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	autocrlf = false
+	eol = lf
+[user]
+	email = INSTERT_USERNAME.noreply.github.com
+	name = INSTERT_NAME
+	signingkey = INSTERT_KEY
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[alias]
+	resign = rebase --exec 'GIT_COMMITTER_DATE=\"$(git log -n 1 --format=%aD)\" git commit --amend --no-edit -n -S' -i
+	project-summary = !which onefetch && onefetch
+[tag]
+	forceSignAnnotated = true
+	gpgSign = true
