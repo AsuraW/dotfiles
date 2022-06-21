@@ -26,7 +26,6 @@ fi
 autoload -U bashcompinit
 bashcompinit
 autoload -Uz compinit
-compinit /usr/share/zsh/functions/Completion/Unix/*
 
 export GOPATH="$HOME/.go"
 export GEM_HOME="$HOME/.gem"
