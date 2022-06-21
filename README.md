@@ -3,6 +3,10 @@
 what else did you expect to see here?
 For more information you have to read dotfiles I'm busy rn =)
 
+![Alt text](images/kitty.png "Kitty")
+![Alt text](images/ranger.png "Ranger")
+![Alt text](images/v.png "VimScript Neovim")
+
 ## ZSH
 
 Install `Antigen` to ~/.antigen
@@ -32,7 +36,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
-After installation run: 
+After installation run:
 
 ```
 v +PlugInstall
