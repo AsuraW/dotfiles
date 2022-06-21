@@ -2,6 +2,10 @@
 
 what else did you expect to see here?
 For more information you have to read dotfiles I'm busy rn =)
+Dependency list:
+```
+exa fzf lsd delta git aria2c tmux jq npm nodejs bat bat-extras grc
+```
 
 ![Alt text](images/kitty.png "Kitty")
 ![Alt text](images/ranger.png "Ranger")
