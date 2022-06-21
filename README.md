@@ -5,7 +5,7 @@ For more information you have to read dotfiles I'm busy rn =)
 
 Dependency list:
 ```
-exa fzf lsd delta git aria2c tmux jq npm nodejs bat bat-extras grc
+exa fzf lsd delta git aria2c tmux jq npm nodejs bat bat-extras grc sxiv ueberzug
 ```
 
 ![Alt text](images/kitty.png "Kitty")
