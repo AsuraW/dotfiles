@@ -34,6 +34,7 @@ export NPM="$HOME/.npm"
 unset SSH_ASKPASS
 export GPG_TTY=$(tty)
 
+export PATH=$HOME/bin:/usr/local/bin:$LOCALBIN:$GOPATH/bin:$GEM_HOME/ruby/3.0.0/bin:$NPM:$PATH
 
 #: Zsh env{{{
 DISABLE_AUTO_TITLE="true"
